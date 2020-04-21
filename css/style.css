@@ -9,7 +9,12 @@ body {
     min-height: 100vh;
     flex-direction: column;
     justify-content: space-between;
+    margin:0;
+    padding:0;
+    height:100%;
 }
+
+/*------- header --------*/
 
 .navbar {
     width: 100%;
@@ -24,7 +29,7 @@ body {
     right: 0;
 }
 
-.header {
+.title {
     font-size: 53px;
     width: 100%;
     padding-top: 5px;
@@ -41,7 +46,6 @@ ul {
    text-align: center;
    display: inline-block;
    color: #ffffff;
-   position: relative;
    margin: 0;
    padding: 0;
    background-color: transparent;   
@@ -66,9 +70,10 @@ li a:hover {
 
 }
 
+/*------- content/backgroundimage -----*/
 
 .bgimage {
-    position: absolute;
+   
     z-index: -1;
     margin: 0;
     top: 0px;
@@ -76,14 +81,22 @@ li a:hover {
 img { 
   width: 100%;
   height: auto;
-}
+} 
 
-.footer {
+/*--- footer -----*/
+
+#footer {
     color:#ffffff;
     font-family: 'Raleway', sans-serif;
     margin: 0 auto;
-    display:block;
+    display: inline-block;
     width: 100%;
     bottom: 0;
+    text-align: center;
+    position: fixed;
 
+}
+
+.icons {
+    margin-right: 10px;
 }
