@@ -4,13 +4,25 @@ body {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     background-color: black;
-    background-image: /images/katharinestarry.jpg;
     background-repeat: no-repeat;
 }
+.navbar {
+    width: 100%;
+    text-align: center;
+}
+
+.fixheading {
+    position: fixed;
+    z-index: 1;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
 .header {
     font-size: 53px;
     width: 100%;
-    padding-top: 25px;
+    padding-top: 15px;
     text-transform: uppercase;
     text-decoration: underline;
     text-align: center;
@@ -49,8 +61,14 @@ li a:hover {
 
 }
 
-.navbar {
-    width: 100%;
-    text-align: center;
-}
 
+.bgimage {
+    position: absolute;
+    z-index: -1;
+    margin: 0;
+    top: 0px;
+}
+img { 
+  width: 100%;
+  height: auto;
+}
