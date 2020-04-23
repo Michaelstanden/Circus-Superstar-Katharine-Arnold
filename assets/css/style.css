@@ -6,7 +6,7 @@ html {
   body {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
-    background-color: #111;
+    background-color: black;
     background-repeat: no-repeat;
     display: flex;
     min-height: 100vh;
@@ -19,7 +19,7 @@ html {
 
 /*------- header --------*/
 
-.navbar {
+.weblinks {
     width: 100%;
     text-align: center;
 }
@@ -105,7 +105,10 @@ li a:hover {
 
 /*-----about page-----*/
 
-
+.about-text {
+    color: #ffffff;
+    
+}
   
 
 #contactbground {
