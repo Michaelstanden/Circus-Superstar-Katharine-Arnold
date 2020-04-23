@@ -22,7 +22,7 @@ body {
 }
 
 .fixheading {
-    position: static;
+    position: fixed;
     z-index: 1;
     margin: 0 auto;
     left: 0;
@@ -78,9 +78,10 @@ li a:hover {
 /*------- content/backgroundimage -----*/
 
 .bgimage {
+    background-image: url("assets/images/hotel-cart.jpg");
     width: 100%;
     height: auto;
-    z-index: -1;
+    z-index: 1;
     margin: 0;
     top: 0px;
 }
@@ -105,16 +106,27 @@ li a:hover {
 }
 
 /*-----about page-----*/
-.aboutimage {
-    display: flex;
-    justify-content: flex-end;
-    
-}
+
 
 .about-text {
     color: #ffffff;
     font-family: 'Raleway', sans-serif;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center:
+
+}
+
+.aboutimage {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  
+  background-color: black;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  
 }
