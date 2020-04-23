@@ -6,7 +6,7 @@ html {
   body {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
-    background-color: black;
+    background-color: #111;
     background-repeat: no-repeat;
     display: flex;
     min-height: 100vh;
@@ -106,28 +106,7 @@ li a:hover {
 /*-----about page-----*/
 
 
-.about-text {
-    color: #ffffff;
-    font-family: 'Raleway', sans-serif;
-
-}
-
-.aboutimage {
-  display: flex;
-  justify-content: flex-end;
-  position: relative;
-  font-family: Arial;
-}
-
-.text-block {
-  position: absolute;
   
-  background-color: black;
-  color: white;
-  padding-left: 50px;
-  padding-right: 50px;
-  
-}
 
 #contactbground {
     background-image: url("../images/katharinebigtop.jpg");
