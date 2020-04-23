@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+html {
+    height: 100%;
+}
 
-body {
+  body {
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     background-color: black;
@@ -11,7 +14,7 @@ body {
     justify-content: space-between;
     margin:0;
     padding:0;
-    height:100%;
+    height:auto;
 }
 
 /*------- header --------*/
@@ -22,8 +25,6 @@ body {
 }
 
 .fixheading {
-    position: fixed;
-    z-index: 1;
     margin: 0 auto;
     left: 0;
     right: 0;
@@ -70,21 +71,18 @@ li a:hover {
 
 }
 
-#container {
-    height: 90px;
-    width: 100%;
-}
+#container  {
+  background-image: url("../images/hotel-cart.jpg");
+    min-width: 100vw;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}  
 
-/*------- content/backgroundimage -----*/
-
-.bgimage {
-    background-image: url("assets/images/hotel-cart.jpg");
-    width: 100%;
-    height: auto;
-    z-index: 1;
-    margin: 0;
-    top: 0px;
-}
 
 
 /*--- footer -----*/
@@ -129,4 +127,17 @@ li a:hover {
   padding-left: 50px;
   padding-right: 50px;
   
+}
+
+#contactbground {
+    background-image: url("../images/katharinebigtop.jpg");
+    min-width: 100vw;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
 }
