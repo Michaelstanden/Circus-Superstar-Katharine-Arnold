@@ -22,7 +22,7 @@ body {
 }
 
 .fixheading {
-    position: fixed;
+    position: static;
     z-index: 1;
     margin: 0 auto;
     left: 0;
@@ -70,6 +70,11 @@ li a:hover {
 
 }
 
+#container {
+    height: 90px;
+    width: 100%;
+}
+
 /*------- content/backgroundimage -----*/
 
 .bgimage {
@@ -91,7 +96,7 @@ li a:hover {
     width: 100%;
     bottom: 0;
     text-align: center;
-    position: fixed;
+    position: static;
 
 }
 
@@ -101,11 +106,15 @@ li a:hover {
 
 /*-----about page-----*/
 .aboutimage {
-    float:right;
+    display: flex;
+    justify-content: flex-end;
+    
 }
 
 .about-text {
     color: #ffffff;
-    font-family: inherit;
-    justify-content: flex-end;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center:
 }
