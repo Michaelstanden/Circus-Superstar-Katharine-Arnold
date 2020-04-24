@@ -147,3 +147,67 @@ li a:hover {
     border: 0;
 }
 }
+
+/*------- form------*/
+.form-section {
+    clear: left;
+    height: 900px;
+}
+   #form-container {
+        left:0;
+    }
+    
+
+
+.signup-form {
+  position: absolute;
+  left: 10%;
+  margin-top: 175px;
+  color: #fff;
+  background-color: rgba(60, 60, 60, 0.6);
+  max-width: 350px; 
+  padding: 30px;
+  
+}
+.signup-form h2 {
+  color: #fafafa;
+  margin-bottom: 20px;
+}
+
+.text-input {
+  background: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+  
+}
+
+/*-----media query test tomorrow
+@media screen and (max-width: 800px) {
+    #photo {
+     column-count:2;
+     -------*/
+
+.text-input:hover{
+  border-color: #030177;
+}
+
+.submit-button {
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px 15px 32px;
+  text-align: center;
+  font-size: 100%;
+  background-color: #030177;
+  color: #fafafa;
+  display: block;
+}
+
+.submit-button:hover{
+  background-color: #fafafa;
+  color: #030177;
+}
+
