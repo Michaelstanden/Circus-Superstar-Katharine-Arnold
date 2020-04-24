@@ -230,7 +230,7 @@ li a:hover {
 
 /*------video page----*/
 .video-image {
-    background-image: url("../images/katharine-clown.jpg");
+    background-color: black;
     min-width: 100vw;
     min-height: 100vh;
     background-repeat: no-repeat;
@@ -246,4 +246,8 @@ iframe {
  padding-top: 150px;
   
 }
+.text-videos {
+    color: #ffffff;
+    text-align: center;
 
+}
