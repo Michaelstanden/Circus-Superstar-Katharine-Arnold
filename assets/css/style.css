@@ -106,12 +106,29 @@ li a:hover {
 }
 
 /*-----about page-----*/
+.text-box{
+    position: absolute;
+    left: 10%;
+    margin-top: 15%;
+    color: #fff;
+    background-color: transparent;
+    max-width: 500px;
+    padding: 30px;
+    text-align: center;
+}
+
 
 .about-text {
     color: #ffffff;
-    
+}
+
+#about-image {
+    display: flex;
+    justify-content: flex-end;
+   
 }
   
+/*------contact page------*/
 
 #contactbground {
     background-image: url("../images/katharinebigtop.jpg");
