@@ -108,18 +108,19 @@ li a:hover {
 /*-----about page-----*/
 .text-box{
     position: absolute;
-    left: 10%;
-    margin-top: 15%;
+    left: 5%;
+    margin-top: 10%;
     color: #fff;
     background-color: transparent;
     max-width: 500px;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
 }
 
 
 .about-text {
     color: #ffffff;
+    word-spacing: 3px;
 }
 
 #about-image {
