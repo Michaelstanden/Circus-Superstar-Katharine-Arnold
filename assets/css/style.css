@@ -283,3 +283,8 @@ p a {
   text-decoration: none;
   color: white;
 }
+
+p a:hover {
+    color: white;
+    background-color: transparent
+}
