@@ -14,7 +14,7 @@ html {
     justify-content: space-between;
     margin:0;
     padding:0;
-    height:auto;
+    height: 100vh;
 }
 
 /*------- header and nav bar --------*/
@@ -30,12 +30,21 @@ html {
     right: 0;
 }
 
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .title {
-    font-size: 53px;
     width: 100%;
     padding-top: 5px;
     text-transform: uppercase;
     text-decoration: underline;
+    text-underline-position: under;
     text-align: center;
     letter-spacing: 8px;
     color: #ffffff;
@@ -60,7 +69,7 @@ li a {
   font-family: 'Raleway', sans-serif;
   color: white;
   text-align: center;
-  padding: 0 25px;
+  padding: 5px 25px;
   text-decoration: none;
   letter-spacing: 3px;
   
@@ -68,6 +77,8 @@ li a {
 
 li a:hover {
   background-color: #111;
+  text-decoration: none;
+  color: white;
 
 }
 
@@ -109,14 +120,19 @@ li a:hover {
 .text-box{
     position: absolute;
     left: 5%;
-    margin-top: 10%;
+    margin-top: 20%;
     color: #fff;
-    background-color: transparent;
-    max-width: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 700px;
     padding: 20px;
     text-align: center;
 }
 
+.abouthead {
+margin-bottom: 40px;
+text-decoration: underline;
+text-underline-position: under;
+}
 
 .about-text {
     color: #ffffff;
@@ -133,8 +149,7 @@ li a:hover {
 
 #contactbground {
     background-image: url("../images/katharinebigtop.jpg");
-    min-width: 100vw;
-    min-height: 100vh;
+    max-width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,6 +157,11 @@ li a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
 
+}
+
+.contacthead {
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 /*------- gallery page ----*/
@@ -170,6 +190,12 @@ li a:hover {
 .form-section {
     clear: left;
     height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 }
    #form-container {
         left:0;
@@ -178,11 +204,8 @@ li a:hover {
 
 
 .signup-form {
-  position: absolute;
-  left: 10%;
-  margin-top: 175px;
   color: #fff;
-  background-color: rgba(60, 60, 60, 0.6);
+  background-color: rgba(60, 60, 60, 0.85);
   max-width: 350px; 
   padding: 30px;
   
@@ -230,21 +253,12 @@ li a:hover {
 }
 
 /*------video page----*/
-.video-image {
-    background-color: black;;
-    min-width: 100vw;
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
+
 
 iframe {
  display: block;
  margin: auto;
- padding-top: 150px;
+ margin-top: 200px;
   
 }
 .text-videos {
