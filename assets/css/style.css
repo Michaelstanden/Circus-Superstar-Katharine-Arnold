@@ -19,6 +19,13 @@ html {
 
 /*------- header and nav bar --------*/
 
+h1 a {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
 .weblinks {
     width: 100%;
     text-align: center;
