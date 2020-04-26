@@ -1,4 +1,3 @@
-
 # Katharine Arnold Circus Artist.
 
 ---
@@ -7,7 +6,16 @@
 
 A website dedicated to showcase and inform users of the site of Katharine Anrold’s ability of circus as her art form. It is a website built to inform and show videos, images and examples of Katharine’s circus work and experience.
 
-With the easy and simple fixed navigation menu, the user can traverse through Katharine’s work and life of circus to see if they would like to hire her for events, projects or enquire about upcoming queries in events and entertainment. With the use of high quality and effective images we are trying to draw the user in and wow them with her skills and abilities. 
+With the easy and simple fixed navigation menu, the user can traverse through Katharine’s work and life of circus to see if they would like to hire her for events, projects or enquire about upcoming queries in events and entertainment. With the use of high quality and effective images we are trying to draw the user in and wow them with her skills and abilities.
+
+I have used HTML, CSS and [Bootstrap Framework](https://getbootstrap.com/) to build this and the website will form part of my ongoing portfolio of work.
+ 
+
+
+## Demo
+
+A live demo of the website can be found [here]( https://github.com/Michaelstanden/Circus-Superstar-Katherine-Arnold).
+
 ---
 
 ## UX
@@ -25,6 +33,9 @@ In order to achieve this, the client wanted a website which meets the following 
 3. Large amount of images with videos and video links to show rather than describe through text. Studies show bookers and producers usually want a quick way to access media to make a decision on whether they want to book a circus artist in the first minute of images and videos presented.
 4. A concise but brief work history to highlight the best of Katharine’s career. Again the main career highlights have been picked out with a BOLD text to draw attention to them quicker if someone is doing a skim read of this history.
 5. A form where the visitors can submit their details and comments to put forward queries to Katharine.
+6. Final note during the initial design phase of the website. I wanted to use a simplistic approach so not to overwhelm the users with images and text which distracts their attention away from the actual content.
+  Also a sleek and minimalist design gives the website a more modern feel.
+
 
 ---
 
@@ -33,27 +44,35 @@ In order to achieve this, the client wanted a website which meets the following 
 
 ### - A gallery of photos
 
-* Collection of images retaining their height placed side by side for impactful collage effect on screen. 
+* Responsive images retaining their height placed side by side for impactful collage effect on screen. 
 
 ### - Fixed heading and navigation bar 
 
-* This is to ensure easy access and navigation throughout the site. A visitor can easily jump between image, videos and contact pages without having to endlessly scroll.
+* This is to ensure easy access and navigation throughout the site. A visitor can easily jump between image, videos and contact pages without having to endlessly scroll. The Navbar will also have a background that has a gradient of light grey so users can easily read the text when scrolling through the site. It will be fixed to ensure users can jump quickly through the site if needed.
 
 ### - Videos 
 
-* Links to videos and showreel acts as well as a pdf view link of a risk assessment to provide technical physical work of Katharine, as well as technical safety aspects required for her acts accessible in one place.
+* Links to videos and showreel acts as well as a pdf view link of a risk assessment to provide physical work of Katharine, as well as technical safety aspects required for her acts. Accessible in one place.
 
 ### - Contact Form.
 
-* A form where the visitor can submit their details and possible comment about the website or interest to book Katharine or consultancy queries.
+* A form where the visitor can submit their details and possible comment about the website or interest to book Katharine or consultancy queries. It has three input boxes containing text fields. These are for Name, Email and a message you want to send to Katharine.
 
 ### - Address and Social Media links in footer
 
-* The address and social media in the footer across all pages to ensure easy access to professional social media throughout the site.
+* The address and social media in the footer across all pages to ensure easy access to professional social media throughout the site. They will open on a separate page so they do not take viewers away from the site.
 
 ### - About page
 
-* concise, informative and punchy resume and history of Katharine’s projects, and events as a circus artist. It highlights in bold the key elements of her resume and has eye catching performance shot at the side to aide the visual representation of her on stage presence.
+* Concise, informative and punchy resume and history of Katharine’s projects, and events as a circus artist. It highlights in bold the key elements of her resume and has eye catching performance shot at the side to aid the visual representation of her on stage presence.
+
+
+---
+## Wire Frames
+* The wireframes for the initial website were drawn by hand and can be located [here]( https://github.com/Michaelstanden/Circus-Superstar-Katharine-Arnold/blob/master/Wireframes/Wire-frames.pdf).
+
+* When designing the initial layout of the website I provided a sketch for how I envisioned the website to look on both desktops and mobile phones.
+
 
 ---
 
@@ -66,35 +85,52 @@ In order to achieve this, the client wanted a website which meets the following 
 ---
 
 ## Technology Used
+1. HTML - This was used for the overall structure of the website.
 
-* HTML & CSS programming languages
-* [Bootstrap](https://getbootstrap.com/) – to fix the nav bar and heading. Version 4.4.1
-* [Google Fonts](https://fonts.google.com/) - Raleway and Sans- Serif
-* [Font Awesome](https://fontawesome.com/) - Social Media Logos in footer (Instagram and twitter) also used for email icon in footer version 5.0.0
-* [GIT](https://git-scm.com/) - Version Control
-* [GitHub](https://github.com/) - to host the repositories for this project and the live website preview
+2. CSS - This was used for the overall and bespoke styling of elements on the website.
+
+3. [Bootstrap Framework](https://getbootstrap.com/) This was used for Fixed navbar acroos all site.
+
+4. [Font Awesome](https://fontawesome.com/) – For Social media Icons in the footer.
+
+5. [Google Fonts](https://fonts.google.com/) - I used Google Fonts for "Raleway" and "Sans-Serif" fonts on the website.
+
+6. [GitHub](https://github.com/) - I used to store my repository for the project and record all my commits.
+
+7. [GitHub Pages](https://pages.github.com/) - I used to deploy my website.
+
 ---
 
 ## Testing
 
-Initially I used the developer’s tools from Google Chrome to make sure the colours and the code was the correct and elements were showing up in a rough place, making sure the project look good on mobile devices first and build up from there.
+### Manual Testing
+
+- Manual Checking/Testing
+  - I physically sifted thought to make sure that there were no unused classes within the HTML and that any class given was correctly linked to a style rule.
+  
+  - I tested every link within my website to ensure the links worked and are correctly linked to their relevant page.
+  
+  - I tested the responsiveness of the website to ensure that all content remains readable at various sizes, such as desktop, mobile phone and tablet.
+  
+  - I tested the menu function thoroughly at the various sizes mentioned above and that the buttons within the menu work as expected.
+    
+  - I tested the website within the Google Chrome, Mozilla Firefox and Microsoft Edge browsers to ensure it displayed correctly and address any issues that occur.
+  
+- I primarily built the website and tested each aspect of development through the use of Chrome DevTools to ensure that the website remains responsive at varying sizes. I used their pre-formatted screen size tool to check at what levels the website breaks and adjusted the code accordingly.
 
 I also used the tools below:
 
-* W3 schools to help me with media queries and to also help with basic stylings in CSS as I forgot how to underline text without using html.
-https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+* W3 schools to help me with media queries and to also help with basic stylings in CSS as I forgot how to underline text without using html. [W3 Schools]
+(https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 
-* HTML formatter https://htmlformatter.com/ to format my HTML code so it’s easy to read.
+* HTML formatter [HTML Formatter](https://htmlformatter.com/) to format my HTML code so it’s easy to read.
 
-* Photo editor online to blur the edges of a photo to make it more visually appealing in about section 
-https://www.quickpicturetools.com/en/blur_edges/
+* Photo editor online to blur the edges of a photo to make it more visually appealing in about section [Link Here]
+(https://www.quickpicturetools.com/en/blur_edges/)
 
-*flex froggy to help me with flex positioning of elements.
-http://flexboxfroggy.com/?fbclid=IwAR1h-OsI5d5oRX1BIFA2eCLzEJUcL4OQHNckOdbe3B3vZiiYCwj7M0AigWc
+* Flexfroggy to help me with flex positioning of elements. [FlexFroggy]
+(http://flexboxfroggy.com/?fbclid=IwAR1h- OsI5d5oRX1BIFA2eCLzEJUcL4OQHNckOdbe3B3vZiiYCwj7M0AigWc)
 
-Finally I tested the site on:
-* Google Chrome Version 81.0.4044.122 (Official Build) (64-bit)
-* Firefox Version 75.0 (64-bit)
 
 ### Issues and resolutions
 
@@ -107,56 +143,55 @@ During the creation of the different feature I came across some issues:
 * The header and nav were originally fixed by myself through HTML coding and CSS stylings, however after them proving difficult to arrange other elements on the page without JS queries and making scaling to different devices difficult. I decided to go onto Bootstrap to use their fixed navbar setting to make scaling easier.
 
 
-* When I coded the http links for the social icons, the icons turn blue instead of the the white as intended. This was easily rectified by adding color:white to the icons class. As well as creating a class for the hover stylings over link elements so that there was not a blue highlight when hovering over them.
+* When I coded the http links for the social icons, the icons turn blue instead of the white as intended. This was easily rectified by adding color:#ffffff to the icons class. As well as creating a class for the hover stylings over link elements so that there was not a blue highlight when hovering over them.
 
 ---
-
 ## Deployment
 
-In order to deploy the project I did these steps:
+I developed this project using [GitPod](https://www.gitpod.io/) IDE and enabled me to push through all commits to GitHub.
 
-1. I went to the repositories [first-milestone](https://github.com/Michaelstanden/first-milestone).
-2. on the top right click at Settings.
-3. Scroll down until the section GitHub Pages.
-4. Within that section there is a scrolldown option in "Source" and select "master branch".
-5. Once the page has refreshed, scroll down again to GitHub Pages and a new link should have appeared with the link: https://michaelstanden.github.io/first-milestone/.
+The live version of this website is hosted using GitHub Pages and is deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
 
-To view project whilst working:
-1.	Git add your files and directories as you go and make changes and save any updates.
-2.	Ensure you do a git commit –m “insert updates and changes” then press enter. This will allow the changes to be committed to the github.
-3.	After this I used the python3 –m http.server and followed the link created to view my site and make amendments and adjustments through the dev tools before making official changes to my developer workplace in github.
+To delpoy Circus Superstar Katharine Arnold from its [repository in GitHub]( https://github.com/Michaelstanden/Circus-Superstar-Katherine-Arnold)I completed the following steps:
 
-To publish the project:
+1. Log into GitHub
+2. From the list of repositories, select Michael-Standen/Circus-Superstar-Katharine-Arnold
+3. Click on the settings button located just below the Fork option.
+4. Scroll down the new page to GitHub Pages.
+5. Select Master Branch from the dropdown menu.
+6. After selecting Master Branch, the page will refresh and the site will be deployed.
+7. If you scroll back down to the GitHub Pages section after the page refreshes, you can grab your live link to your deployed site.
 
-1. Go to the repositories [Michaelstanden/first-milestone] 
-(https://github.com/Michaelstanden/first-milestone/blob/master/assets/css/style.css)
-2. Click on the settings button
-3. Scroll down to GitHub Pages and under Source in the dropdown menu select master branch. The page will refresh, if not refresh page manually. 
-4. Scroll down to GitHub Pages again and there will be a URL link of your live site published at https://michaelstanden.github.io/first-milestone/
-5. Click the link to view site and also use right click inspect to see aspects of code on each page.
+
+### To Run Locally
+
+If you wanted to run this project locally and not use GitHub Pages, you can clone this repository directly into the editor of your choice by pasting `git clone https://github.com/Michaelstanden/Circus-Superstar-Katherine-Arnold` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
 
 ## Credits
 
 ### Content
 All the images have been obtained from Katharine Arnold:
-Video vimeo link obtained from Roger Robinson’s Vimeo account with permission of usage.
-Everything else provided by myself e.g. risk assessment and all code and css except coding and css mentioned in useage of Bootsrap for navbar.
+Video wimeo link obtained from Roger Robinson’s Vimeo account with permission of usage.
+Everything else provided by myself e.g. risk assessment.
 
 
 * youtube links for videos on videos page.
-Hotel cart https://www.youtube.com/watch?v=i_UEABgR3q0    
-Duo aerial cage https://www.youtube.com/watch?v=hN8J_JemlmY
-Vimeo video https://vimeo.com/257255547
+Hotel cart [link](https://www.youtube.com/watch?v=i_UEABgR3q0 )   
+Duo aerial cage [link] (https://www.youtube.com/watch?v=hN8J_JemlmY)
+Vimeo video [link] (https://vimeo.com/257255547)
 
 ### Acknowledgements
 
 * I would like to thank Akshat Garg(my mentor) for his quick and intuitive  feedback, help and advice.
 
-* [Simen Daehlin](https://github.com/Eventyret) for the fatastic Unicorn Chrome add-on.
+* Bootstrap for the fixed Navbar code.
 
-* [Richard Wells](https://github.com/D0nni387) 
+* W3 Schools for CSS stylings and HTML queries especially with media queries.
+
+* Flexforggy for the help with flex positioning of elements especially in the about.html pages and contact.html pages of my site. 
 
 
 
 ## Disclaimer
 Please note the content and images on this website are for educational purposes only.
+
