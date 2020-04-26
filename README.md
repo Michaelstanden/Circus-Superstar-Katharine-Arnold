@@ -115,11 +115,11 @@ During the creation of the different feature I came across some issues:
 
 In order to deploy the project I did these steps:
 
-1. I went to the repositories [the-lambretta-circle-club](https://github.com/Dhracko/the-lambretta-circle-club).
+1. I went to the repositories [first-milestone](https://github.com/Michaelstanden/first-milestone).
 2. on the top right click at Settings.
 3. Scroll down until the section GitHub Pages.
 4. Within that section there is a scrolldown option in "Source" and select "master branch".
-5. Once the page has refreshed, scroll down again to GitHub Pages and a new link should have appeared with the link: https://dhracko.github.io/the-lambretta-circle-club/.
+5. Once the page has refreshed, scroll down again to GitHub Pages and a new link should have appeared with the link: https://michaelstanden.github.io/first-milestone/.
 
 To view project whilst working:
 1.	Git add your files and directories as you go and make changes and save any updates.
@@ -139,8 +139,8 @@ To publish the project:
 
 ### Content
 All the images have been obtained from Katharine Arnold:
-Video wimeo link obtained from Roger Robinson’s Vimeo account with permission of usage.
-Everything else provided by myself e.g. risk assessment.
+Video vimeo link obtained from Roger Robinson’s Vimeo account with permission of usage.
+Everything else provided by myself e.g. risk assessment and all code and css except coding and css mentioned in useage of Bootsrap for navbar.
 
 
 * youtube links for videos on videos page.
