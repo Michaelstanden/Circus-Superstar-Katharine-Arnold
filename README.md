@@ -33,7 +33,7 @@ In order to achieve this, the client wanted a website which meets the following 
 
 ### - A gallery of photos
 
-* Three Images slide on a carousel style at the top of the website
+* Collection of images retaining their height placed side by side for impactful collage effect on screen. 
 
 ### - Fixed heading and navigation bar 
 
