@@ -120,16 +120,13 @@ In order to achieve this, the client wanted a website which meets the following 
 
 I also used the tools below:
 
-* W3 schools to help me with media queries and to also help with basic stylings in CSS as I forgot how to underline text without using html. [W3 Schools]
-(https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+* W3 schools to help me with media queries and to also help with basic stylings in CSS as I forgot how to underline text without using html. [W3 Schools](https://www.w3schools.com)
 
 * HTML formatter [HTML Formatter](https://htmlformatter.com/) to format my HTML code so it’s easy to read.
 
-* Photo editor online to blur the edges of a photo to make it more visually appealing in about section [Link Here]
-(https://www.quickpicturetools.com/en/blur_edges/)
+* Photo editor online to blur the edges of a photo to make it more visually appealing in about section [Photo Editor](https://www.quickpicturetools.com/en/blur_edges/)
 
-* Flexfroggy to help me with flex positioning of elements. [FlexFroggy]
-(http://flexboxfroggy.com/?fbclid=IwAR1h- OsI5d5oRX1BIFA2eCLzEJUcL4OQHNckOdbe3B3vZiiYCwj7M0AigWc)
+* Flexfroggy to help me with flex positioning of elements. [FlexFroggy](http://flexboxfroggy.com/?fbclid=IwAR1h- OsI5d5oRX1BIFA2eCLzEJUcL4OQHNckOdbe3B3vZiiYCwj7M0AigWc)
 
 
 ### Issues and resolutions
@@ -176,9 +173,9 @@ Everything else provided by myself e.g. risk assessment.
 
 
 * youtube links for videos on videos page.
-Hotel cart [link](https://www.youtube.com/watch?v=i_UEABgR3q0 )   
-Duo aerial cage [link] (https://www.youtube.com/watch?v=hN8J_JemlmY)
-Vimeo video [link] (https://vimeo.com/257255547)
+Hotel cart [Here](https://www.youtube.com/watch?v=i_UEABgR3q0 )   
+Duo aerial cage [Here](https://www.youtube.com/watch?v=hN8J_JemlmY)
+Vimeo video [Here](https://vimeo.com/257255547)
 
 ### Acknowledgements
 
