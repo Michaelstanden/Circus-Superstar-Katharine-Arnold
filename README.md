@@ -149,7 +149,7 @@ I developed this project using [GitPod](https://www.gitpod.io/) IDE and enabled 
 
 The live version of this website is hosted using GitHub Pages and is deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
 
-To delpoy Circus Superstar Katharine Arnold from its [repository in GitHub]( https://github.com/Michaelstanden/Circus-Superstar-Katherine-Arnold)I completed the following steps:
+To delpoy Circus Superstar Katharine Arnold from its [repository in GitHub](https://github.com/Michaelstanden/Circus-Superstar-Katherine-Arnold) I completed the following steps:
 
 1. Log into GitHub
 2. From the list of repositories, select Michael-Standen/Circus-Superstar-Katharine-Arnold
