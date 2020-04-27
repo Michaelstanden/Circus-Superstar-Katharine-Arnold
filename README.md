@@ -173,9 +173,9 @@ Everything else provided by myself e.g. risk assessment.
 
 
 * youtube links for videos on videos page.
-Hotel cart [Here](https://www.youtube.com/watch?v=i_UEABgR3q0 )   
-Duo aerial cage [Here](https://www.youtube.com/watch?v=hN8J_JemlmY)
-Vimeo video [Here](https://vimeo.com/257255547)
+* Hotel cart [Here](https://www.youtube.com/watch?v=i_UEABgR3q0 )   
+* Duo aerial cage [Here](https://www.youtube.com/watch?v=hN8J_JemlmY)
+* Vimeo video [Here](https://vimeo.com/257255547)
 
 ### Acknowledgements
 
