@@ -126,7 +126,7 @@ I also used the tools below:
 
 * Photo editor online to blur the edges of a photo to make it more visually appealing in about section [Photo Editor](https://www.quickpicturetools.com/en/blur_edges/)
 
-* Flexfroggy to help me with flex positioning of elements. [FlexFroggy](http://flexboxfroggy.com/?fbclid=IwAR1h- OsI5d5oRX1BIFA2eCLzEJUcL4OQHNckOdbe3B3vZiiYCwj7M0AigWc)
+* Flexfroggy to help me with flex positioning of elements. [FlexFroggy](http://flexboxfroggy.com/?fbclid=IwAR1h-OsI5d5oRX1BIFA2eCLzEJUcL4OQHNckOdbe3B3vZiiYCwj7M0AigWc)
 
 
 ### Issues and resolutions
