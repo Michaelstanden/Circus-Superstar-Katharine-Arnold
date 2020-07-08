@@ -101,7 +101,7 @@
      width: 100%;
      bottom: 0;
      text-align: center;
-     position: relative;
+     position: static;
 }
  .icons {
      margin-right: 10px;
@@ -116,7 +116,6 @@
      display: flex;
      align-items: center;
      justify-content: center;
-
 }
  .about-image-bg {
      background-image: url("../images/blur-edges.jpg");
