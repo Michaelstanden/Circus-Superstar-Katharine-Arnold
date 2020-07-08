@@ -223,6 +223,10 @@
      color: #030177;
 }
 /*video page*/
+ .background-video {
+     background-image: url("assets/images/starrysky.jpg");
+     background-size: cover;
+ }
  iframe {
      display: block;
      margin: auto;
