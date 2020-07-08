@@ -164,11 +164,13 @@
 }
 /*form contact page*/
  .form-section {
-     clear: left;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     margin-top: 40%;
+    clear: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    Padding-top: 4em;
+    margin-top: 4em;
+    padding-bottom: 30%;
 }
  #form-container {
      left:0;
