@@ -14,7 +14,7 @@ I have used HTML, CSS and [Bootstrap Framework](https://getbootstrap.com/) to bu
 
 ## Demo
 
-A live demo of the website can be found [here]( https://github.com/Michaelstanden/Circus-Superstar-Katharine-Arnold).
+A live demo of the website can be found [here](https://katharinearnoldcircus.com/).
 
 ---
 
